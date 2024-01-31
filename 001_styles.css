@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+.nav{
+    background: lightcoral;
+    margin-bottom: 10px;
+}
+
+.nav ul{
+    list-style: none;
+    margin:0;
+    padding:0;
+    display:flex; /* в одну строчку */
+}
+
+
+
+.nav ul li{
+    margin-right: 10px;
+    padding:10px;
+}
+
+.nav ul li:hover{
+    background: #fffeee;
+}
+
+body{
+    font-size: 20px;
+    font-family: Roboto, sans-serif;
+    font-weight: normal;
+    color:#000;
+    background: #f1f1f1;
+}
+
+.table{
+    /* border:2px solid red; */
+    width: 100%;
+}
+
+
+.table td
+{
+    /* text-align:center; */
+    padding-bottom: 10px;
+}
+
+.hob{
+    background: darkturquoise;
+}
+
+.table thead{
+    text-align: left;
+}
+
+.table td:hover{
+    background: #eeefff;
+}
+
+/* .table td:nth-child(2){
+    background: #eee;
+} */
+.spisok{
+    padding:0;
+    margin:0;
+    margin-left:15px;
+    margin-bottom: 10px;
+  
+}
+
+
+.info
+{
+    margin-bottom: 20px;
+    display: flex; 
+    
+}
+
+.info-text{
+    margin-left:40px;
+}
+
+.info p
+{
+    
+    font-style: italic;
+    font-weight: bold;
+    color:darkgrey; 
+}
+
+.card
+{
+    /* border:5px solid red; */
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.con
+{
+    background: lightgray;
+    color:brown;
+}
+
+.group label{
+    display:block;
+    color:gray;
+}
+
+.group input, .group textarea
+{
+    width:100%;
+    border:none;
+    box-sizing: border-box;
+    border-bottom: 1px solid green;
+    background: transparent;
+}
+
+.input{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.input .group{
+    margin-right: 20px;
+    width:50%;
+}
+.container
+{
+    margin:auto;
+    max-width: 800px;
+}
+
+.uch
+{
+    background:#fbdedd;
+    opacity: 0.8;
+}
+
+.telega
+{
+    text-decoration: none;
+    color:blue;
+    /* text-decoration: underline dotted; */
+    text-decoration: underline;
+    transition: all .2s;
+}
+
+
+
+a{
+    
+    text-decoration: none;
+    color:blue;
+    text-decoration: underline;
+}
+a:active
+{
+    color:yellow;
+
+}
+
+.mes{
+    margin-top: 10px;
+}
+
+
+.telega:hover
+{
+    font-size: 30px;
+    color:orange;
+}
+
+.btn
+{
+    background: black;
+    color:yellow;
+    padding:15px 20px;
+    cursor:pointer;
+}
+
+.btn:hover
+{
+    opacity:0.8;
+    color:#f1f1f1;
+
+}
+
+.img
+{
+    border-radius: 50px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    width: 300px;
+    
+    /* position:relative;left:200px; */
+}
+
+.forma h2{
+    text-align: center;
+}
+
+/* .group{
+
+} */
